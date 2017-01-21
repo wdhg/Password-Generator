@@ -16,7 +16,7 @@ parser.add_argument("-s",
                     default = [ADJECTIVE, NOUN, VERB, ADVERB],
                     choices = NOUN + ADJECTIVE + VERB + ADVERB,
                     required=False,
-                    help="The structure of the password")
+                    help="The structure of the password (n = noun, a = adjective, v = verb, A = adverb)")
 parser.add_argument("-c",
                     "--char",
                     dest = "use_char",
